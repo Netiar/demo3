@@ -1,0 +1,98 @@
+*
+{
+   box-sizing: border-box;
+}
+
+.container
+{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+  gap: 16px;
+  margin-top: 64px;
+}
+
+.title
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58.4px;
+  line-height: 71px;
+   /* identical to box height */ color: #1472FF;
+   color: #1472FF;
+}
+
+.form
+{
+  display:flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:64px;
+}
+
+.text-input
+{
+  border-radius: 3px;
+  padding: 10px 10px;
+  width: 60%;
+  border: none;
+  background: #C4C4C4;
+}
+
+.btn
+{
+  width: 115px;
+  height: 46px;
+  color: white;
+  background: #1472FF;
+  border-radius: 3px;
+  border:none;
+ }
+
+.strip
+{
+    width: 100%;
+    height: 79px;
+    background: #C4C4C4;
+    display: flex;
+}
+
+.icon
+{
+    width: 85px;
+    height: 79px;
+    background-color: #1472FF;
+    padding: 10px;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+p
+{
+    margin: 0px;
+}
+
+.strong
+{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.6118px;
+  line-height: 25px;
+
+ /* identical to box height */
+
+  color: #000000;
+}
